@@ -24,9 +24,9 @@ def monopoly_with_third_tier
   # complexity.
 	{:railroads => {
 		:pieces => 4
-	},
-	:rent_in_dollars => 4
 	}
+	}
+	railroads[:rent_in_dollars] = ""
 
 
 end
